@@ -1,5 +1,5 @@
 
-      export let url;
+      const url;
 
       fetch('https://my-json-server.typicode.com/VitorHugoG/api-dados/dados')
       .then(response => {
