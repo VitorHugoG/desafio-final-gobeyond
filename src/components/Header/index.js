@@ -6,12 +6,12 @@ export default function Header(){
     return(
          <header className="header">
             <div className="container-header">
-               <img src= {Logo} />
+               <img className="logo-corebiz" src= {Logo}  alt="logo corebiz"/>
               <nav className="navbar">
-                  <a href="#" target="_blank"> a corebiz </a>
-                  <a href="#" target="_blank"> serviços </a>
-                  <a href="#" target="_blank"> cases </a>
-                  <a href="#" target="_blank"> contato </a>
+                  <a href="https://www.corebiz.ag/pt/about/" target="_blank" rel="noreferrer"> a corebiz </a>
+                  <a href="https://www.corebiz.ag/pt/#framework-title" target="_blank" rel="noreferrer"> serviços </a>
+                  <a href="https://www.corebiz.ag/pt/cases/" target="_blank" rel="noreferrer"> cases </a>
+                  <a href="https://www.corebiz.ag/pt/contato/" target="_blank" rel="noreferrer"> contato </a>
               </nav>  
               </div>
          </header>  

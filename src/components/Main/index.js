@@ -30,7 +30,7 @@ export default function Main(){
                       <div className="left-content">
                         <div className="titulo-principal">
                             <h1>{dados[indice].title}</h1>
-                            <a href="https://www.corebiz.ag/pt/"> <strong>veja mais</strong> <img src={Arrow} /> </a>
+                            <a href="https://www.corebiz.ag/pt/"> <strong>veja mais</strong> <img src={Arrow} alt="seta right"/> </a>
                          </div>
                          <div className="mini-menu">
                              <button onClick={()=> setIndice(0)}> <img className={indice === 0 ?"active":"normal"} src={dados[0].imgUrl} alt="botao um" /> </button>
@@ -42,7 +42,7 @@ export default function Main(){
 
                     <div className="banner">
                         <div className="container-banner" >
-                           <img src={dados[indice].imgUrl} />
+                           <img src={dados[indice].imgUrl} alt="banner" />
                          </div>
                     </div>
                      

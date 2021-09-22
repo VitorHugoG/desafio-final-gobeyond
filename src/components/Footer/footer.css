@@ -1,0 +1,86 @@
+.container-footer{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 40vh;
+    grid-gap: 3px;
+    background-color: #F4F4F4;
+}
+
+.conteudo-esquerda{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh;
+    background-color: #fff;
+}
+
+.contatos-empresa{
+   height: 28vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: #fff;
+   align-items: flex-start;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 5vh;
+    width: 100%;
+    margin: auto;
+}
+
+.menu-footer{
+   
+  height: auto;
+ }
+
+ .menu-footer nav{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .menu-footer nav a {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black; 
+    font-size: 19px;
+    color: #000;
+ }
+
+ .container-enderecos{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40vh;
+    grid-gap: 6px;
+    
+ }
+
+ .container-enderecos address{
+    width: 90%;
+    height: 25vh;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+ }
+
+ .container-enderecos address p{
+     margin-top: 15px;
+     font-size: 15px;
+ }
+
