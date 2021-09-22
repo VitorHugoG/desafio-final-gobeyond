@@ -1,0 +1,31 @@
+.header{
+    background-color: #000;
+}
+
+.container-header{
+    width: 90%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    height: 70px;
+}
+
+.navbar a {
+    margin-left: 28px;
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: 'Circular';
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid white;
+}
