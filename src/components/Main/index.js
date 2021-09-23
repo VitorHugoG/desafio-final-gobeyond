@@ -30,7 +30,6 @@ export default function Main() {
   return (
     <main>
       <div className="container-main">
-        <div className="left-content">
           <div className="titulo-principal">
             <h1>{dados[indice].title}</h1>
             <a href="https://www.corebiz.ag/pt/">
@@ -66,7 +65,6 @@ export default function Main() {
               />
             </button>
           </div>
-        </div>
 
         <div className="banner">
           <div className="container-banner">

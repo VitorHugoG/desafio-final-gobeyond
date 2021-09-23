@@ -32,3 +32,9 @@
   border-bottom: 1px solid white;
   color: #707070;
 }
+
+@media (max-width: 1024px) {
+  .navbar{
+    display: none;
+  }
+}
