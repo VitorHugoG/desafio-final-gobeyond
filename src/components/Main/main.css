@@ -16,12 +16,12 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-around;
 }   
 
 .titulo-principal{
     width: 90%;
-    height: 400px; 
+    height: 320px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,15 +44,14 @@ main{
     border-radius: 30px;
     margin-bottom: 15px;
 }
-
+.titulo-principal a:hover{
+    background-color: #707070;
+}
 .titulo-principal a strong{
     font-size: .8rem;
     margin-right: 15px;
     color: #000;
 }   
-
-
-
 .mini-menu{
     width: 90%;
     height: 15vh;
@@ -73,7 +72,7 @@ main{
 .normal{
     width: 100%;
     height: 50px;
-    border: 2px solid #000;
+    border: 3px solid #000;
     object-fit: cover;
 }
 
@@ -81,7 +80,7 @@ main{
     width: 100%;
     height: 50px;
     background-color: rgb(255, 255, 255);
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     object-fit: cover;
 }
 .container-banner{
@@ -95,3 +94,23 @@ main{
     height: 70vh;
     border-radius: 17px;
 }
+
+@media (max-width: 1024px) {
+   .container-main{
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50% ;
+   }
+   .mini-menu{
+       width: 100%;
+   }
+   .titulo-principal{
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+   .container-banner img{
+       width: 100%;
+       height: 30vh;
+   }
+  }
