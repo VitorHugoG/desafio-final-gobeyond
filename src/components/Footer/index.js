@@ -16,13 +16,13 @@ export default function Footer() {
               <span> direitos reservados, corebiz 2021 </span>
             </div>
             <div className="redes-sociais">
-              <a href="#" target="_blank">
+              <a href="#" target="_blank" rel="noopener">
                 <img src={Facebook} alt="logo corebiz" />
               </a>
-              <a href="https://www.instagram.com/o_mundograndao/" target="_blank">
+              <a href="https://www.instagram.com/o_mundograndao/" target="_blank" rel="noopener"> 
                 <img src={Instagram} alt="logo corebiz" />
               </a>
-              <a href="https://www.linkedin.com/in/vitor-hugo-g/" target="_blank">
+              <a href="https://www.linkedin.com/in/vitor-hugo-g/" target="_blank" rel="noopener">
                 <img src={Linkedin} alt="logo corebiz" />
               </a>
             </div>
