@@ -11,7 +11,7 @@ export default function Header(){
          <header className="header">
             <div className="container-header">
               <img className="logo-corebiz" src= {Logo}  alt="logo corebiz"/>
-              <div className={ menu ? "container-menu on": "container-menu" }>
+              <section className={ menu ? "container-menu on": "container-menu" }>
               <div onClick={()=> setMenu(!menu) } className="menu-hamburguer">
                   <div className="primeira"></div>
                   <div className="segunda"></div>
@@ -24,7 +24,7 @@ export default function Header(){
                   <a href="https://www.corebiz.ag/pt/contato/" target="_blank" rel="noreferrer"> contato </a>
               </nav>  
          
-              </div>
+              </section>
               </div>
          </header>  
     )
