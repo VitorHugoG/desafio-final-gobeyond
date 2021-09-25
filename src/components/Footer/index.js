@@ -19,10 +19,10 @@ export default function Footer() {
               <a href="#" target="_blank">
                 <img src={Facebook} alt="logo corebiz" />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://www.instagram.com/o_mundograndao/" target="_blank">
                 <img src={Instagram} alt="logo corebiz" />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://www.linkedin.com/in/vitor-hugo-g/" target="_blank">
                 <img src={Linkedin} alt="logo corebiz" />
               </a>
             </div>
@@ -55,7 +55,6 @@ export default function Footer() {
                 href="https://www.corebiz.ag/pt/contato/"
                 target="_blank"
                 rel="noreferrer"
-                target="_blank"
               >
                 contato
               </a>
@@ -69,7 +68,6 @@ export default function Footer() {
               <h2>.Brasil </h2>
               <p> Avenida Andrômeda, 2000. Bloco 6 e 8 Alphaville SP</p>
               <p>
-                {" "}
                 R. Ifigenia Maria de Oliveira, 3793 Jr. Piratininga Franca SP
               </p>
             </address>
@@ -82,7 +80,6 @@ export default function Footer() {
             <address>
               <h2>.México</h2>
               <p>
-                {" "}
                 Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo,
                 11520 Ciudad de México, CDMX
               </p>

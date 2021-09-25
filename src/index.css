@@ -1,3 +1,10 @@
+:root{
+	--gray : #F4F4F4;
+	--black : #000000;
+	--white : #FFFFFF;
+	--grayHover : #707070;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -36,8 +43,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-  text-decoration: none;
-  font-family: 'Circular';
+    text-decoration: none;
+    font-family: 'Circular';
+	transition-duration:.3s ;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

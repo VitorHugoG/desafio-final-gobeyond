@@ -10,7 +10,7 @@
   justify-content: space-between;
   margin: auto;
 }
-.container-header img{
+.container-header img {
   width: 200px;
 }
 .navbar {
@@ -33,30 +33,73 @@
   color: #707070;
 }
 
-.menu-hamburguer{
+.menu-hamburguer {
   display: none;
 }
 
 @media (max-width: 1024px) {
-  .container-header img{
+  .container-header img {
     width: 150px;
   }
 
-  .navbar{
+  .navbar {
     display: none;
   }
-  .menu-hamburguer{
+  .menu-hamburguer {
+    position: absolute;
+    top: 50px;
+    right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 30px;
     height: 30px;
+    
+ 
   }
-  .primeira, .segunda, .terceira{
+  .primeira,
+  .segunda,
+  .terceira {
     width: 100%;
     height: 5px;
     background-color: #fff;
     border-radius: 2px;
   }
+   
 
+  .container-menu.on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--black);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .container-menu.on .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    height: 50vh;
+  }
+
+  .container-menu.on .menu-hamburguer{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+  }
+
+  .container-menu.on .menu-hamburguer .primeira{
+    transform: rotate(45deg) translate(7px,7px);
+  }
+  .container-menu.on .menu-hamburguer .segunda{
+    opacity: 0;
+  }
+  .container-menu.on .menu-hamburguer .terceira{
+    transform: rotate(-45deg) translate(7px,-7px);
+  }
 }

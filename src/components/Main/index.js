@@ -66,11 +66,11 @@ export default function Main() {
             </button>
           </div>
 
-        <div className="banner">
+        <section className="banner">
           <div className="container-banner">
             <img src={dados[indice].imgUrl} alt="banner" />
           </div>
-        </div>
+        </section>
       </div>
     </main>
   );
