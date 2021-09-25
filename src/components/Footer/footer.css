@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 40vh;
+ 
 }
 
 .contatos-empresa {
@@ -39,6 +40,7 @@
    height: 5vh;
    display: flex;
    align-items: center;
+   margin-top: 15px;
 }
 
 .redes-sociais a {
@@ -72,6 +74,7 @@
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 40vh;
+  padding: 0px 5% 0px 5%;
 }
 
 .container-enderecos address {
@@ -104,7 +107,10 @@
       align-items: center;
    }
    .logo{
-      height: 22vh;
+      height: 20vh;
+   }
+   .logo img{
+     width: 150px;
    }
    .redes-sociais {
       justify-content: center;
@@ -115,10 +121,11 @@
       margin: auto;
       grid-template-columns: 100% ;
       grid-template-rows: 15% 15% 15% 15%;
+      padding: 0px;
    }
    .container-enderecos address{
       width: 90%;
-      margin: auto;
+      margin: 0px auto 30px auto;
    }
    .conteudo-esquerda{
       grid-template-columns: 100% ;
