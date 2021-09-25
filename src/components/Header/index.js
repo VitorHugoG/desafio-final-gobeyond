@@ -18,10 +18,10 @@ export default function Header(){
                   <div className="terceira"></div>
               </div>
               <nav className="navbar">
-                  <a href="https://www.corebiz.ag/pt/about/" target="_blank" rel="noreferrer"> a corebiz </a>
-                  <a href="https://www.corebiz.ag/pt/#framework-title" target="_blank" rel="noreferrer"> serviços </a>
-                  <a href="https://www.corebiz.ag/pt/cases/" target="_blank" rel="noreferrer"> cases </a>
-                  <a href="https://www.corebiz.ag/pt/contato/" target="_blank" rel="noreferrer"> contato </a>
+                  <a href="https://www.corebiz.ag/pt/about/" target="_blank" rel="noopener"> a corebiz </a>
+                  <a href="https://www.corebiz.ag/pt/#framework-title" target="_blank" rel="noopener"> serviços </a>
+                  <a href="https://www.corebiz.ag/pt/cases/" target="_blank" rel="noopener"> cases </a>
+                  <a href="https://www.corebiz.ag/pt/contato/" target="_blank" rel="noopener"> contato </a>
               </nav>  
          
               </section>
