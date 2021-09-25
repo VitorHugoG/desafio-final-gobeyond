@@ -13,6 +13,11 @@ export default function Header(){
                   <a href="https://www.corebiz.ag/pt/cases/" target="_blank" rel="noreferrer"> cases </a>
                   <a href="https://www.corebiz.ag/pt/contato/" target="_blank" rel="noreferrer"> contato </a>
               </nav>  
+              <div className="menu-hamburguer">
+                  <div className="primeira"></div>
+                  <div className="segunda"></div>
+                  <div className="terceira"></div>
+              </div>
               </div>
          </header>  
     )
