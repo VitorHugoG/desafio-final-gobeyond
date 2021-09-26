@@ -9,7 +9,8 @@ main {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 70% 20%;
-
+  overflow: hidden;
+  text-overflow: ellipsis;
   grid-template-areas:
     "titulo banner"
     "mini banner";
