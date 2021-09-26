@@ -9,8 +9,7 @@ main {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 70% 20%;
-  overflow: hidden;
-  text-overflow: ellipsis;
+
   grid-template-areas:
     "titulo banner"
     "mini banner";
@@ -29,7 +28,8 @@ main {
   width: 100%;
   font-size: 60px;
   color: var(--white);
-  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .titulo-principal a {
