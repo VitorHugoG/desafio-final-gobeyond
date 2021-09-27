@@ -61,5 +61,5 @@ Fontes:
  
 Perfomance:
 <br>
-![image](https://user-images.githubusercontent.com/62728505/134836643-7982a3df-76d5-457c-9300-2c4459ffed7d.png)
+![image](https://user-images.githubusercontent.com/62728505/134836762-8b90b742-f77f-4a07-8d42-3335eeadd535.png)
 
