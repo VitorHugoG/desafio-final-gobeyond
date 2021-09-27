@@ -10,17 +10,26 @@ Desktop:
 ![image](https://user-images.githubusercontent.com/62728505/134786507-39e233e0-0edf-4bf6-a87d-cd903bedf573.png)
 <br>
 Mobile:
-<br>
 ![image](https://user-images.githubusercontent.com/62728505/134786665-5d5d57ae-ecc1-4df9-b8d0-3cb5aee9e239.png)
 <br>
 Layout Finalizado:
 
+
 Desktop:
-![image](https://user-images.githubusercontent.com/62728505/134786558-18312c9c-4c33-4932-bcc0-574ccb479a21.png)
+<br>
+![screen-capture](https://user-images.githubusercontent.com/62728505/134829076-111ca584-5be2-40ca-bb9f-698c4014187f.gif)
+
 <br>
 Mobile:
 <br>
-![image](https://user-images.githubusercontent.com/62728505/134786675-5145da43-83f7-45d6-9a6a-e3decdf2be5e.png)
+
+![mobile (1)](https://user-images.githubusercontent.com/62728505/134829345-170fbcbc-ff95-4696-b326-d3e9094e2163.gif)
+
+
+
+
+
+
 
 
 Tecnologias Utilizadas:
